@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
           margin: 0;
@@ -77,6 +78,7 @@ header .navigation a:hover {
           letter-spacing: 2px;
           line-height: 60px;
           margin-bottom: 30px;
+          margin-left: 30px;
 }
 
 .content .info h2 span {
@@ -89,6 +91,14 @@ header .navigation a:hover {
           font-size: 16px;
           font-weight: 500;
           margin-bottom: 40px;
+          margin-left: 30px;
+          color: #fff;
+          font-family: 'Courier Prime', monospace;
+
+}
+
+.content .info p:hover {
+          color: blue;
 }
 
 .content .info-btn {
@@ -254,7 +264,7 @@ label {
           height: 170px;
           max-height: 170;
           margin: 30px auto;
-          margin-bottom: 150px;
+          margin-bottom: 200px;
 }
 
 .sites h3 {
